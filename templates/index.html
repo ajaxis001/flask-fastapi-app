@@ -1,0 +1,21 @@
+<!-- The <!DOCTYPE html> declaration is not a HTML tag. It's an "information" to the browser about what document type to expect. In this case, it's HTML5.-->
+<html>
+    <!-- The head element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.-->
+    <head>
+        <!-- The title tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or on the page's tab. It can also be used as a bookmark label. -->
+        <title> Random Fruit </title>
+    </head>
+    <!-- The body tag contains the content of the document, such as text, hyperlinks, images, tables, lists, etc. -->
+    <body>
+        <!-- The h1 tag defines the most important heading on the page (usually the largest or boldest, too). -->
+        <h1>This web app generates random fruit</h1>
+        <!-- The h2 tag defines a secondary heading. It's usually smaller than h1 but larger than the other h-tags. -->
+        <!-- The double curly braces are used to insert a variable's value into the HTML document. -->
+        <!-- This is a part of Flask's templating engine, and it will be replaced with the value of the "fruit" variable when the template is rendered. -->
+        <h2> Random fruit: {{fruit}}</h2>
+        <!-- The h4 tag defines a fourth level heading. The <i> tag is used to italicize text. -->
+        <h4><i>Refresh page for more random fruit</i></h4>
+    </body>
+    <!-- End of body -->
+</html>
+<!-- End of HTML document -->
